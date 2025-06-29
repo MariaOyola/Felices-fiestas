@@ -12,7 +12,7 @@ public class Matriz {
                 System.out.print("matriz[" + i + "][" + j + "]: ");
                 int valor = teclado.nextInt();
 
-                if (valor < 0 && valor > 45) {
+                if (valor > 0 && valor >= 45) {
                     System.out.println(" Error: el número debe estar entre 0 y 45. Programa terminado.");
                     teclado.close();
                     return; ///  se sale del programa si el numerro es incorrecto, osea es mayor a 45
